@@ -1,0 +1,660 @@
+# Copyright (C) 2026 Facilo
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gestor Listo for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gestor-listo-for-woocommerce\n"
+"Last-Translator: Facilo <info@facilo.es>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-13T12:09:15+00:00\n"
+"PO-Revision-Date: 2026-11-13 12:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: gestor-listo-for-woocommerce\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: gestor-listo-for-woocommerce.php
+msgid "Gestor Listo for WooCommerce"
+msgstr "Gestor Listo for WooCommerce"
+
+#. Description of the plugin
+#: gestor-listo-for-woocommerce.php
+msgid "Hand your gestor the quarter's sales in one click: invoice book, VAT summary and a ZIP with every invoice."
+msgstr "Entrega a tu gestor las ventas del trimestre en un clic: libro de facturas, resumen de IVA y un ZIP con todas las facturas."
+
+#. Author of the plugin
+#: gestor-listo-for-woocommerce.php
+msgid "Facilo"
+msgstr "Facilo"
+
+#. translators: 1: documents done so far, 2: documents in total.
+#: includes/Admin.php:51
+#, php-format
+msgid "Preparing %1$s of %2$s documents…"
+msgstr "Preparando %1$s de %2$s documentos…"
+
+#: includes/Admin.php:52
+msgid "Pack ready."
+msgstr "Paquete listo."
+
+#: includes/Admin.php:53
+msgid "We couldn't prepare the pack. Please try again."
+msgstr "No se ha podido preparar el paquete. Inténtalo de nuevo."
+
+#: includes/Admin.php:54
+msgid "Copied"
+msgstr "Copiado"
+
+#: includes/Admin.php:65
+msgid "We share with our accountants the billing data they need to keep the books: name, tax ID (NIF), country and the amounts of each invoice."
+msgstr "Compartimos con nuestra gestoría los datos de facturación necesarios para llevar la contabilidad: nombre, NIF, país e importes de cada factura."
+
+#: includes/Admin.php:103
+msgid "Your quarter"
+msgstr "Tu trimestre"
+
+#: includes/Admin.php:104
+#: includes/Admin.php:393
+msgid "Deliveries"
+msgstr "Entregas"
+
+#: includes/Admin.php:105
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/Admin.php:158
+msgid "Previous year"
+msgstr "Año anterior"
+
+#: includes/Admin.php:169
+msgid "Next year"
+msgstr "Año siguiente"
+
+#: includes/Admin.php:199
+msgid "In progress"
+msgstr "En curso"
+
+#. translators: %s: date, such as April 20.
+#: includes/Admin.php:202
+#, php-format
+msgid "Delivered on %s"
+msgstr "Entregado el %s"
+
+#: includes/Admin.php:204
+msgid "Not delivered"
+msgstr "Sin entregar"
+
+#. translators: %d: number of things to check.
+#: includes/Admin.php:209
+#, php-format
+msgid "%d thing to check"
+msgid_plural "%d things to check"
+msgstr[0] "%d cosa que mirar"
+msgstr[1] "%d cosas que mirar"
+
+#: includes/Admin.php:211
+msgid "Ready to send"
+msgstr "Listo para enviar"
+
+#. translators: %d: quarter number, 1 to 4.
+#: includes/Admin.php:238
+#, php-format
+msgid "Q%d"
+msgstr "%dT"
+
+#. translators: 1: quarter number, 1 to 4, 2: year.
+#: includes/Admin.php:241
+#, php-format
+msgid "Q%1$d %2$d"
+msgstr "%1$dT %2$d"
+
+#. translators: %s: VAT rate, such as 21.
+#: includes/Admin.php:254
+#, php-format
+msgid "VAT %s%%"
+msgstr "IVA %s %%"
+
+#: includes/Admin.php:257
+msgid "Sales to EU businesses"
+msgstr "Entregas a empresas de la UE"
+
+#: includes/Admin.php:258
+msgid "Exports"
+msgstr "Exportaciones"
+
+#: includes/Admin.php:259
+msgid "Canary Islands, Ceuta and Melilla"
+msgstr "Canarias, Ceuta y Melilla"
+
+#: includes/Admin.php:260
+msgid "OSS sales to other EU countries"
+msgstr "Ventas OSS a otros países de la UE"
+
+#. translators: %d: number of things to check.
+#: includes/Admin.php:283
+#, php-format
+msgid "%d thing to check before you send it"
+msgid_plural "%d things to check before you send it"
+msgstr[0] "%d cosa que mirar antes de enviarlo"
+msgstr[1] "%d cosas que mirar antes de enviarlo"
+
+#: includes/Admin.php:285
+msgid "All in order."
+msgstr "Todo en orden."
+
+#: includes/Admin.php:285
+msgid "Your quarter is ready for your gestor."
+msgstr "Tu trimestre está listo para tu gestor."
+
+#: includes/Admin.php:288
+msgid "Prepare the pack for my gestor"
+msgstr "Preparar el paquete para mi gestor"
+
+#: includes/Admin.php:289
+msgid "Preparing…"
+msgstr "Preparando…"
+
+#: includes/Admin.php:290
+#: includes/Admin.php:402
+msgid "Download ZIP"
+msgstr "Descargar ZIP"
+
+#: includes/Admin.php:294
+msgid "Recipient (optional)"
+msgstr "Destinatario (opcional)"
+
+#: includes/Admin.php:294
+msgid "Mark as delivered"
+msgstr "Marcar como entregado"
+
+#: includes/Admin.php:295
+msgid "Only this quarter"
+msgstr "Solo este trimestre"
+
+#: includes/Admin.php:295
+msgid "The whole year up to this quarter"
+msgstr "Todo el año hasta este trimestre"
+
+#. translators: %s: date, such as October 20.
+#: includes/Admin.php:299
+#, php-format
+msgid "The general deadline for this quarter is %s."
+msgstr "El plazo general de este trimestre termina el %s."
+
+#: includes/Admin.php:301
+msgid "Invoices"
+msgstr "Facturas"
+
+#: includes/Admin.php:302
+msgid "Tax base"
+msgstr "Base imponible"
+
+#. translators: %s: amount in euros.
+#: includes/Admin.php:304
+#, php-format
+msgid "plus %s of equivalence surcharge"
+msgstr "más %s de recargo"
+
+#: includes/Admin.php:305
+#: includes/Admin.php:334
+#: includes/Admin.php:355
+#: includes/Setup.php:75
+msgid "VAT"
+msgstr "IVA"
+
+#: includes/Admin.php:306
+#: includes/Admin.php:334
+#: includes/Admin.php:397
+msgid "Total"
+msgstr "Total"
+
+#. translators: %d: number of new invoices.
+#: includes/Admin.php:313
+#, php-format
+msgid "%d new invoice"
+msgid_plural "%d new invoices"
+msgstr[0] "%d factura nueva"
+msgstr[1] "%d facturas nuevas"
+
+#. translators: %d: number of changed invoices.
+#: includes/Admin.php:315
+#, php-format
+msgid "%d invoice changed"
+msgid_plural "%d invoices changed"
+msgstr[0] "%d modificada"
+msgstr[1] "%d modificadas"
+
+#. translators: 1: date the quarter was sent, 2: new invoices, such as "2 new invoices", 3: changed invoices, such as "1 invoice changed".
+#: includes/Admin.php:317
+#, php-format
+msgid "There have been changes since you sent this quarter on %1$s: %2$s and %3$s."
+msgstr "Ha habido cambios desde que enviaste este trimestre el %1$s: %2$s y %3$s."
+
+#. translators: %s: link to the Settings tab.
+#: includes/Admin.php:321
+#, php-format
+msgid "Your IAE activity code (epígrafe IAE) is missing. Without it, the Tax Agency won't accept the invoice book. %s."
+msgstr "Falta tu epígrafe IAE. Sin él, la Agencia Tributaria no acepta el libro. %s."
+
+#. translators: %s: link to the Settings tab.
+#: includes/Admin.php:321
+msgid "Add it in Settings"
+msgstr "Añádelo en Ajustes"
+
+#. translators: %s: name of the invoice plugin.
+#: includes/Admin.php:327
+#, php-format
+msgid "%s doesn't let us read the PDFs without creating them, so the pack will go without them. Everything else is complete."
+msgstr "%s no nos deja leer los PDF sin crearlos, así que el paquete irá sin ellos. Todo lo demás va completo."
+
+#. translators: %s: amount in euros.
+#: includes/Admin.php:331
+#, php-format
+msgid "You have collected %s of VAT and equivalence surcharge this quarter. It isn't yours: keep it aside for the Tax Agency, minus the VAT on your expenses."
+msgstr "Llevas %s de IVA y recargo en este trimestre. No es tuyo: guárdalo para Hacienda, menos el IVA de tus gastos."
+
+#: includes/Admin.php:334
+msgid "VAT by rate"
+msgstr "IVA por tipo"
+
+#: includes/Admin.php:334
+msgid "Rate"
+msgstr "Tipo"
+
+#: includes/Admin.php:334
+#: includes/Admin.php:355
+msgid "Base"
+msgstr "Base"
+
+#: includes/Admin.php:334
+#: includes/Setup.php:76
+msgid "Surcharge"
+msgstr "Recargo"
+
+#: includes/Admin.php:340
+msgid "Before you send it"
+msgstr "Antes de enviarlo"
+
+#: includes/Admin.php:342
+msgid "Error · left out"
+msgstr "Error · queda fuera"
+
+#: includes/Admin.php:342
+msgid "Warning"
+msgstr "Aviso"
+
+#: includes/Admin.php:346
+msgid "View order"
+msgstr "Ver pedido"
+
+#: includes/Admin.php:355
+msgid "OSS sales by country"
+msgstr "Ventas OSS por país"
+
+#: includes/Admin.php:355
+msgid "Country and rate"
+msgstr "País y tipo"
+
+#: includes/Admin.php:385
+msgid "We haven't found any invoice plugin. We'll use the order numbers, but an order isn't an invoice. Check with your gestor."
+msgstr "No hemos encontrado ningún plugin de facturas. Usaremos los números de pedido, pero un pedido no es una factura. Consúltalo con tu gestor."
+
+#: includes/Admin.php:395
+msgid "Every pack you prepare will show up here."
+msgstr "Aquí verás cada paquete que prepares."
+
+#: includes/Admin.php:397
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/Admin.php:397
+msgid "Quarter"
+msgstr "Trimestre"
+
+#: includes/Admin.php:397
+msgid "Documents"
+msgstr "Documentos"
+
+#: includes/Admin.php:397
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: includes/Admin.php:397
+msgid "File"
+msgstr "Archivo"
+
+#: includes/Admin.php:400
+msgid "Marked by hand"
+msgstr "Marcado a mano"
+
+#: includes/Admin.php:404
+msgid "File deleted for security after 90 days. You can prepare it again."
+msgstr "Archivo borrado por seguridad a los 90 días. Puedes prepararlo de nuevo."
+
+#: includes/Admin.php:422
+msgid "Your business"
+msgstr "Tu empresa"
+
+#: includes/Admin.php:424
+msgid "Your invoices"
+msgstr "Tus facturas"
+
+#: includes/Admin.php:426
+msgid "Your taxes"
+msgstr "Tus impuestos"
+
+#: includes/Admin.php:428
+msgid "Invoice book details"
+msgstr "Datos del libro"
+
+#: includes/Admin.php:430
+msgid "Type of activity"
+msgstr "Tipo de actividad"
+
+#: includes/Admin.php:435
+msgid "IAE activity code (epígrafe IAE)"
+msgstr "Epígrafe IAE"
+
+#: includes/Admin.php:435
+msgid "Four digits, such as 6599. The Tax Agency asks for it on every line of the invoice book. If you don't know it, ask your gestor."
+msgstr "Cuatro cifras, como 6599. La Agencia Tributaria lo pide en cada línea del libro. Si no lo sabes, pregúntaselo a tu gestor."
+
+#: includes/Admin.php:436
+msgid "I sell retail to end consumers"
+msgstr "Vendo al por menor a consumidores finales"
+
+#: includes/Admin.php:437
+msgid "Credit note type"
+msgstr "Tipo de rectificativa"
+
+#: includes/Admin.php:438
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: includes/Admin.php:438
+msgid "Delete all Gestor Listo data when uninstalling"
+msgstr "Borrar todos los datos de Gestor Listo al desinstalar"
+
+#: includes/Admin.php:439
+msgid "Save"
+msgstr "Guardar"
+
+#: includes/Admin.php:450
+msgid "Your gestor imports the quarter and stops typing in invoices"
+msgstr "Tu gestor importa el trimestre y deja de teclear facturas"
+
+#: includes/Admin.php:451
+msgid "With Pro, your gestor gets a file their accounting software loads directly, and the pack reaches them on its own every quarter."
+msgstr "Con Pro, tu gestor recibe un archivo que su programa carga directamente, y el paquete le llega solo cada trimestre."
+
+#: includes/Admin.php:452
+msgid "Files for a3, ContaPlus, Sage 50 and ContaSol"
+msgstr "Archivos para a3, ContaPlus, Sage 50 y ContaSol"
+
+#: includes/Admin.php:453
+msgid "Your ledger accounts, the way your gestor uses them"
+msgstr "Tus cuentas contables, como las usa tu gestor"
+
+#: includes/Admin.php:454
+msgid "Automatic sending every quarter"
+msgstr "Envío automático cada trimestre"
+
+#: includes/Admin.php:455
+msgid "Only what's new, if something changes later"
+msgstr "Solo lo nuevo, si algo cambia después"
+
+#: includes/Admin.php:456
+msgid "The figures for your modelos 303, 349, 369, 347 and 390, already added up"
+msgstr "Los datos de tus modelos 303, 349, 369, 347 y 390, ya sumados"
+
+#: includes/Admin.php:457
+msgid "Try it for 14 days with no card. If your gestor can't import it, you don't pay."
+msgstr "Pruébalo 14 días sin tarjeta. Si tu gestor no puede importarlo, no pagas."
+
+#: includes/Admin.php:458
+msgid "€59 a year for one shop · €149 a year for five shops. VAT not included."
+msgstr "59 € al año por una tienda · 149 € al año por cinco tiendas. IVA aparte."
+
+#: includes/Admin.php:459
+msgid "Try 14 days free"
+msgstr "Probar 14 días gratis"
+
+#: includes/Admin.php:460
+msgid "a3, ContaPlus, Sage 50 and ContaSol are trademarks of their owners. Gestor Listo is not affiliated with them."
+msgstr "a3, ContaPlus, Sage 50 y ContaSol son marcas de sus dueños. Gestor Listo no tiene relación con ellos."
+
+#. translators: 1: tax name, 2: invoice number.
+#: includes/Checks.php:125
+#, php-format
+msgid "The tax “%1$s” isn't assigned yet. Assign it in Settings and invoice %2$s will go back into the pack."
+msgstr "Falta asignar el impuesto «%1$s». Hazlo en Ajustes y la factura %2$s volverá al paquete."
+
+#. translators: 1: invoice number, 2: invoice total, 3: sum of its lines.
+#: includes/Checks.php:128
+#, php-format
+msgid "Invoice %1$s doesn't add up: the total is %2$s € and its lines add up to %3$s €."
+msgstr "La factura %1$s no cuadra: el total es %2$s € y sus líneas suman %3$s €."
+
+#. translators: 1: invoice number, 2: currency code.
+#: includes/Checks.php:131
+#, php-format
+msgid "Invoice %1$s is in %2$s. For now we only include invoices in euros."
+msgstr "La factura %1$s está en %2$s. Por ahora solo incluimos facturas en euros."
+
+#. translators: 1: invoice number, 2: first order, 3: second order.
+#: includes/Checks.php:134
+#, php-format
+msgid "Number %1$s appears on two orders: %2$s and %3$s."
+msgstr "El número %1$s aparece en dos pedidos: %2$s y %3$s."
+
+#. translators: 1: country code, 2: invoice number.
+#: includes/Checks.php:137
+#, php-format
+msgid "Sale to %1$s with no VAT and no EU VAT number (NIF-IVA) on invoice %2$s. Add the EU VAT number or check the tax."
+msgstr "Venta a %1$s sin IVA y sin NIF-IVA en la factura %2$s. Añade el NIF-IVA o revisa el impuesto."
+
+#. translators: %s: invoice number.
+#: includes/Checks.php:140
+#, php-format
+msgid "Invoice %s is a digital service to a business in another EU country. Give it to your gestor separately."
+msgstr "La factura %s es un servicio digital a una empresa de otro país de la UE. Pásasela a tu gestor aparte."
+
+#. translators: %s: invoice number.
+#: includes/Checks.php:143
+#, php-format
+msgid "Invoice %s has a tax base of 0, and a3 doesn't accept that."
+msgstr "La factura %s tiene base 0 y a3 no la admite."
+
+#. translators: %s: order number.
+#: includes/Checks.php:146
+#, php-format
+msgid "Order %s is paid and has no invoice."
+msgstr "El pedido %s está pagado y no tiene factura."
+
+#. translators: 1: invoice number, 2: invoice series.
+#: includes/Checks.php:149
+#, php-format
+msgid "Invoice %1$s is missing from series %2$s."
+msgstr "Falta la factura %1$s en la serie %2$s."
+
+#. translators: 1: invoice number, 2: amount limit.
+#: includes/Checks.php:152
+#, php-format
+msgid "Invoice %1$s is over %2$s € and has no tax ID (NIF)."
+msgstr "La factura %1$s supera %2$s € y no lleva NIF."
+
+#. translators: 1: order number, 2: refunded amount.
+#: includes/Checks.php:155
+#, php-format
+msgid "Order %1$s has a refund of %2$s € with no credit note."
+msgstr "El pedido %1$s tiene una devolución de %2$s € sin factura rectificativa."
+
+#. translators: 1: order number, 2: invoice number.
+#: includes/Checks.php:158
+#, php-format
+msgid "Order %1$s is cancelled, but its invoice %2$s still exists."
+msgstr "El pedido %1$s está cancelado, pero su factura %2$s sigue existiendo."
+
+#. translators: 1: order number, 2: country code.
+#: includes/Checks.php:161
+#, php-format
+msgid "Order %1$s goes to %2$s with Spanish VAT."
+msgstr "El pedido %1$s va a %2$s con IVA español."
+
+#. translators: %s: amount sold this year.
+#: includes/Checks.php:164
+#, php-format
+msgid "Your sales to consumers in other EU countries add up to %s € this year. From 10,000 € the way VAT applies changes. Talk it over with your gestor."
+msgstr "Tus ventas a particulares de otros países de la UE llevan %s € este año. A partir de 10.000 € cambia cómo se aplica el IVA. Coméntalo con tu gestor."
+
+#. translators: 1: invoice number, 2: expected VAT, 3: VAT found.
+#: includes/Checks.php:167
+#, php-format
+msgid "On invoice %1$s, the VAT doesn't match the base: %2$s € was expected and there is %3$s €."
+msgstr "En la factura %1$s, el IVA no coincide con la base: se esperaban %2$s € y hay %3$s €."
+
+#. translators: %s: invoice number.
+#: includes/Checks.php:170
+#, php-format
+msgid "Sale in Spain at 0%% on invoice %s."
+msgstr "Venta en España al 0 %% en la factura %s."
+
+#. translators: 1: invoice number, 2: the tax ID as written.
+#: includes/Checks.php:173
+#, php-format
+msgid "The tax ID (NIF) on invoice %1$s doesn't look right: %2$s."
+msgstr "El NIF de la factura %1$s no parece correcto: %2$s."
+
+#. translators: 1: accounting software, 2: first invoice, 3: second invoice.
+#: includes/Checks.php:176
+#, php-format
+msgid "Two invoices end up with the same short number in %1$s: %2$s and %3$s."
+msgstr "Dos facturas quedan con el mismo número corto en %1$s: %2$s y %3$s."
+
+#. translators: Date format for a day and month, see https://www.php.net/manual/datetime.format.php
+#: includes/Dates.php:97
+msgid "F j"
+msgstr "j \\d\\e F"
+
+#. translators: Date format for a full date, see https://www.php.net/manual/datetime.format.php
+#: includes/Dates.php:100
+msgid "F j, Y"
+msgstr "j \\d\\e F \\d\\e Y"
+
+#: includes/Settings.php:34
+msgid "Business: selling products or services (the usual for a shop)"
+msgstr "Empresarial: venta de productos o servicios (lo habitual en una tienda)"
+
+#: includes/Settings.php:35
+msgid "Professional"
+msgstr "Profesional"
+
+#: includes/Settings.php:36
+msgid "Artistic or sports professional"
+msgstr "Profesional artística o deportiva"
+
+#: includes/Settings.php:37
+msgid "Not subject to IAE"
+msgstr "No sujeta al IAE"
+
+#: includes/Setup.php:31
+msgid "This tax ID (NIF) doesn't look right. Please check it."
+msgstr "Este NIF no parece correcto. Revísalo, por favor."
+
+#: includes/Setup.php:33
+msgid "Legal name"
+msgstr "Nombre fiscal"
+
+#: includes/Setup.php:34
+msgid "Tax ID (NIF)"
+msgstr "NIF"
+
+#: includes/Setup.php:35
+msgid "Type of business"
+msgstr "Tipo de empresa"
+
+#: includes/Setup.php:35
+msgid "Company"
+msgstr "Sociedad"
+
+#: includes/Setup.php:35
+msgid "Self-employed"
+msgstr "Autónomo"
+
+#. translators: %s: name of the invoice plugin.
+#: includes/Setup.php:46
+#, php-format
+msgid "We found %s. We'll read your invoices from there."
+msgstr "Hemos encontrado %s. Leeremos tus facturas de ahí."
+
+#: includes/Setup.php:48
+msgid "Invoice plugin"
+msgstr "Plugin de facturas"
+
+#: includes/Setup.php:55
+msgid "Tax ID (NIF) field on the order"
+msgstr "Campo del NIF en el pedido"
+
+#: includes/Setup.php:56
+msgid "Other plugin: number field"
+msgstr "Otro plugin: campo del número"
+
+#: includes/Setup.php:57
+msgid "Other plugin: date field"
+msgstr "Otro plugin: campo de la fecha"
+
+#: includes/Setup.php:68
+msgid "Your shop has no taxes yet."
+msgstr "Tu tienda aún no tiene impuestos."
+
+#: includes/Setup.php:73
+msgid "Not assigned"
+msgstr "Sin asignar"
+
+#: includes/Setup.php:78
+msgid "Exempt"
+msgstr "Exento"
+
+#: includes/Setup.php:92
+msgid "Get your quarter ready in three steps"
+msgstr "Deja el trimestre listo en tres pasos"
+
+#: includes/Setup.php:96
+msgid "1. Your business"
+msgstr "1. Tu empresa"
+
+#: includes/Setup.php:96
+msgid "These details appear in the files your gestor receives."
+msgstr "Estos datos aparecen en los archivos que recibe tu gestor."
+
+#: includes/Setup.php:98
+msgid "2. Your invoices"
+msgstr "2. Tus facturas"
+
+#: includes/Setup.php:100
+msgid "3. Your taxes"
+msgstr "3. Tus impuestos"
+
+#: includes/Setup.php:100
+msgid "We've sorted your taxes. If one doesn't fit, change it here."
+msgstr "Hemos ordenado tus impuestos. Si alguno no encaja, cámbialo aquí."
+
+#: includes/Setup.php:102
+msgid "See my quarter"
+msgstr "Ver mi trimestre"
+
+#: includes/Setup.php:102
+msgid "Gestor Listo only reads your data. It never creates or changes invoices or orders."
+msgstr "Gestor Listo solo lee tus datos. Nunca crea ni cambia facturas ni pedidos."
+
+#: includes/Sources/MetaKey.php:49
+msgid "Other plugin (custom fields)"
+msgstr "Otro plugin (campos personalizados)"
+
+#: includes/Sources/OrderNumber.php:48
+msgid "Order numbers"
+msgstr "Números de pedido"
