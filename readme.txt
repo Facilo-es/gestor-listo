@@ -2,7 +2,7 @@
 Contributors: facilo
 Tags: woocommerce, facturas, contabilidad, gestoria, iva
 Requires at least: 6.6
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
 WC requires at least: 9.0
 Stable tag: 1.0.0
